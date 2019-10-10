@@ -1,0 +1,21 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+body {
+  background-color: gray;
+}
+#root > div {
+  @apply .mx-auto;
+  @apply .my-10;
+  background-color: antiquewhite;
+}
+
+#avatar {
+  @apply .w-1/5;
+  @apply .bg-gray-400;
+  @apply .ml-auto;
+  @apply .pr-2;
+}
