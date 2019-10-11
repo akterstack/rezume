@@ -3,7 +3,7 @@ import { masthead } from '../data';
 
 export function Masthead() {
   return (
-    <div className="flex flex-wrap w-2/3 mt-0 mx-auto">
+    <div className="flex w-9/12 mt-0 mx-auto">
       <div id="avatar" className="flex justify-end">
         <img
           className="w-20 h-20 rounded-full justify-right"
@@ -17,13 +17,13 @@ export function Masthead() {
           {masthead.role}, {masthead.experienceNote}
         </div>
         <div className="flex flex-wrap">
-          <div className="email">
-            <i className="fas fa-envelope" />
-            {masthead.email}
-          </div>
           <div className="phone">
             <i className="fas fa-phone-square" />
             {masthead.phone}
+          </div>
+          <div className="email">
+            <i className="fas fa-envelope" />
+            {masthead.email}
           </div>
           <div className="github">
             <i className="fab fa-github-square" />
