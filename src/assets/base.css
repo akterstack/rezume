@@ -6,10 +6,16 @@
 
 body {
   background-color: gray;
+  font-family: 'Cambria', serif;
+  width: 21cm;
+  height: 29.7cm;
 }
-#root > div {
-  @apply .mx-auto;
-  @apply .my-10;
+
+div {
+  border: 1px solid #999999;
+}
+
+#main > div {
   background-color: antiquewhite;
 }
 

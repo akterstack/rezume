@@ -1,7 +1,11 @@
+@page {
+  size: A4;
+  margin: 0;
+}
+
 @media print {
-  body{
+  html, body {
     width: 21cm;
     height: 29.7cm;
-    margin: 12.7mm;
   }
 }
