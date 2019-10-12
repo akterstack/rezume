@@ -24,3 +24,12 @@ div {
   @apply .w-1/5;
   @apply .pr-2;
 }
+
+section {
+  @apply .px-2;
+}
+
+.section-title {
+  @apply .text-3xl;
+  border-bottom: 1px dashed;
+}
