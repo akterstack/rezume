@@ -1,6 +1,6 @@
 import React from 'react';
 import { render } from 'react-dom';
-import { About, BackendSkill, Masthead } from '@/components';
+import { About, Masthead, SkillSet } from '@/components';
 import { stack, StackProvider } from '@/context';
 
 import './assets/base.css';
@@ -14,8 +14,8 @@ const App = () => {
         <div id="content" className="flex w-2/3">
           <About />
         </div>
-        <div id="sidebar" className="flex w-1/3">
-          <BackendSkill />
+        <div id="sidebar" className="flex flex-wrap w-1/3">
+          <SkillSet />
         </div>
       </div>
     </StackProvider>

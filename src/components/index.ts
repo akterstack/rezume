@@ -1,3 +1,3 @@
 export * from './About';
-export * from './BackendSkill';
 export * from './Masthead';
+export * from './SkillSet';

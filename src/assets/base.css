@@ -11,8 +11,12 @@ body {
   height: 29.7cm;
 }
 
-div {
-  /*border: 1px solid #999999;*/
+section {
+  @apply .p-2;
+}
+
+sup {
+  font-size: 10px;
 }
 
 #main > div {
@@ -25,11 +29,22 @@ div {
   @apply .pr-2;
 }
 
-section {
-  @apply .px-2;
+.badge {
+  @apply .mr-2;
+}
+
+.badge i {
+  @apply .pr-1;
 }
 
 .section-title {
-  @apply .text-3xl;
+  @apply .text-xl;
+  @apply .w-full;
   border-bottom: 1px dashed;
+}
+
+.skills {
+  @apply .list-disc;
+  @apply .list-outside;
+  @apply .ml-5;
 }
