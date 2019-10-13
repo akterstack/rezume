@@ -6,18 +6,23 @@ export function Masthead() {
     <StackConsumer>
       {({ masthead }) => (
         <div className="flex w-10/12 mt-0 mx-auto my-5">
-          <div id="avatar" className="flex justify-end">
+          <div id="avatar" className="flex justify-end items-center pr-3">
             <img
-              className="w-20 h-20 rounded-full justify-right"
+              className="w-24 h-24 rounded-full justify-right"
               src="/resources/akter.hossain.png"
               alt={masthead.fullName}
             />
           </div>
           <div>
-            <div className="full-name">{masthead.fullName}</div>
-            <div className="subtitle">
-              {masthead.role}, {masthead.experienceNote}
+            <div className="uppercase text-5xl leading-none">
+              {masthead.fullName}
             </div>
+            <div
+              className="text-xl"
+              dangerouslySetInnerHTML={{
+                __html: `${masthead.role}, ${masthead.experienceNote}`,
+              }}
+            />
             <div className="flex flex-wrap">
               <div className="badge">
                 <i className="fas fa-phone-square" />
@@ -25,12 +30,7 @@ export function Masthead() {
               </div>
               <div className="badge">
                 <i className="fas fa-envelope" />
-                <a
-                  href={`mailto:${masthead.email}`}
-                  target="_blank"
-                  rel="noopener noreferrer">
-                  {masthead.email}
-                </a>
+                {masthead.email}
               </div>
               <div className="badge">
                 <i className="fab fa-github-square" />
