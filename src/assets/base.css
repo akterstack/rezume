@@ -20,8 +20,8 @@ sup {
 }
 
 #main > div {
-  background-color: antiquewhite;
   @apply .p-5;
+  background-color: antiquewhite;
 }
 
 #avatar {

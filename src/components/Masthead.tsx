@@ -33,7 +33,25 @@ export function Masthead() {
                 {masthead.email}
               </div>
               <div className="badge">
+                <i className="fas fa-map-marker-alt" />
+                {masthead.address}
+              </div>
+            </div>
+            <div className="flex flex-wrap">
+              <div className="badge">
                 <i className="fab fa-github-square" />
+                <a
+                  href={masthead.github}
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  akterstack
+                  <sup>
+                    <i className="fas fa-external-link-alt pl-1" />
+                  </sup>
+                </a>
+              </div>
+              <div className="badge">
+                <i className="fab fa-linkedin" />
                 <a
                   href={masthead.github}
                   target="_blank"

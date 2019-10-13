@@ -51,7 +51,9 @@ export const experience = [
       {
         title: 'Lead Full-stack Developer',
         duration: ['Nov 2018', 'Present'],
-        details: '',
+        details: [
+          'Design & develop features'
+        ],
       },
       {
         title: 'Java Developer',
@@ -67,14 +69,21 @@ export const experience = [
     },
     roles: [
       {
-        title: 'Java Team Lead',
+        title: 'Team Lead',
         duration: ['Jul 2016', 'Dec 2017'],
-        details: '',
+        details: [
+          'Managed a small development team with 3 full-stack developers and one QA member.',
+          'Collected product features from product owner and break down the tasks and assigned developers',
+          'Managed daily stand up meeting, test progress and deployments',
+        ],
       },
       {
-        title: 'Full-stack Developer - Java and JavaScript',
+        title: 'Software Developer',
         duration: ['Sept 2014', 'Jun 2016'],
-        details: '',
+        details: [
+          'Developed features using a custom in house Java EE framework',
+          'Built a Java functional library using lambda to encourage declarative programming inside the team'
+        ],
       }
     ]
   }, {
@@ -85,9 +94,11 @@ export const experience = [
     },
     roles: [
       {
-        title: 'Full-stack Software Engineer',
-        duration: ['Jul 2016', 'Dec 2017'],
-        details: '',
+        title: 'Junior Software Developer (Full-stack)',
+        duration: ['Aug 2013', 'Sept 2014'],
+        details: [
+          ''
+        ],
       }
     ]
   },

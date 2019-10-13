@@ -5,5 +5,6 @@ export const masthead = {
   email: 'akterstack@gmail.com',
   phone: '+8801736774272',
   address: 'Dhaka, Bangladesh',
-  github: 'https://www.github.com/akterstack'
+  github: 'https://www.github.com/akterstack',
+  linkedin: 'https://www.linkedin.com/in/akterstack',
 };
