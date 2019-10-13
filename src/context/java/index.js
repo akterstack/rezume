@@ -39,3 +39,56 @@ export const skillSet = [
     ]
   },
 ];
+
+export const experience = [
+  {
+    duration: ['December 2017', 'Ongoing'],
+    company: {
+      title: 'Cefalo Bangladesh Ltd, Dhaka',
+      website: 'http://www.cefalo.com',
+    },
+    roles: [
+      {
+        title: 'Lead Full-stack Developer',
+        duration: ['Nov 2018', 'Present'],
+        details: '',
+      },
+      {
+        title: 'Java Developer',
+        duration: ['Dec 2017', 'Oct 2018'],
+        details: '',
+      }
+    ]
+  }, {
+    duration: ['September 2014', 'December 2017'],
+    company: {
+      title: 'Dynamic Solution Innovators Ltd, Dhaka',
+      website: 'http://www.dsinnovators.com',
+    },
+    roles: [
+      {
+        title: 'Java Team Lead',
+        duration: ['Jul 2016', 'Dec 2017'],
+        details: '',
+      },
+      {
+        title: 'Full-stack Developer - Java and JavaScript',
+        duration: ['Sept 2014', 'Jun 2016'],
+        details: '',
+      }
+    ]
+  }, {
+    duration: ['September 2014', 'December 2017'],
+    company: {
+      title: 'Bit Mascot (Pvt.) Ltd, Dhaka',
+      website: 'https://www.bitmascot.com',
+    },
+    roles: [
+      {
+        title: 'Full-stack Software Engineer',
+        duration: ['Jul 2016', 'Dec 2017'],
+        details: '',
+      }
+    ]
+  },
+];

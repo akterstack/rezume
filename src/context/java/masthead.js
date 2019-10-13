@@ -1,6 +1,6 @@
 export const masthead = {
   fullName: 'Akter Hossain',
-  role: 'Full-stack developer',
+  role: 'Full-stack Developer',
   experienceNote: '6yrs+ in &hearts; with Java & JavaScript',
   email: 'akterstack@gmail.com',
   phone: '+8801736774272',
