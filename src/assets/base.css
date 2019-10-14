@@ -13,10 +13,15 @@ body {
 
 section {
   @apply .p-2;
+  @apply .w-full;
 }
 
 sup {
   font-size: 8px;
+}
+
+i[class*="fa-"] {
+  @apply .mr-1;
 }
 
 #main > div {
@@ -33,13 +38,8 @@ sup {
   @apply .mr-2;
 }
 
-.badge i {
-  @apply .pr-1;
-}
-
 .section-title {
   @apply .text-xl;
-  @apply .w-full;
   @apply .font-semibold;
   border-bottom: 1px dashed;
 }

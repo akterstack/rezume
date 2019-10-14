@@ -40,7 +40,7 @@ export const skillSet = [
   },
 ];
 
-export const experience = [
+export const experiences = [
   {
     duration: ['December 2017', 'Ongoing'],
     company: {

@@ -7,7 +7,7 @@ export function SkillSet() {
       {({ skillSet }) =>
         skillSet.map(
           ({ label, skills }: { label: string; skills: string[] }) => (
-            <section key={label} className="flex flex-wrap w-full">
+            <section key={label}>
               <div className="section-title">{label}</div>
               <ul className="skills">
                 {skills.map(skill => (
