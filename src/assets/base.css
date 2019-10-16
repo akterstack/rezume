@@ -22,12 +22,18 @@ ul {
   @apply .ml-5;
 }
 
-sup {
-  font-size: 8px;
-}
-
 i[class*="fa-"] {
   @apply .mr-1;
+}
+
+a:after, a::after {
+  font-family: "FontAwesome";
+  content: "\f35d";
+  display: inline-block;
+  vertical-align: super;
+  font-weight: 900;
+  font-size: 8px;
+  @apply .pl-1 .text-gray-600
 }
 
 #main > div {

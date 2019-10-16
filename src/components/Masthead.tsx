@@ -45,9 +45,6 @@ export function Masthead() {
                   target="_blank"
                   rel="noopener noreferrer">
                   akterstack
-                  <sup>
-                    <i className="fas fa-external-link-alt pl-1" />
-                  </sup>
                 </a>
               </div>
               <div className="badge">
@@ -57,9 +54,6 @@ export function Masthead() {
                   target="_blank"
                   rel="noopener noreferrer">
                   /akterstack
-                  <sup>
-                    <i className="fas fa-external-link-alt pl-1" />
-                  </sup>
                 </a>
               </div>
             </div>
