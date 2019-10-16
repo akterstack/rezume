@@ -70,7 +70,7 @@ export const experiences = [
     },
     roles: [
       `Work as a consultant for <a class="inline-link" target="_blank" href="https://www.nhst.no/">NHST Media Group, Norway</a>`,
-      'Lead and maintain a full-stack project based on Node.js & Vue backed by Java based Microservices',
+      'Lead and maintain a full-stack project based on Node.js & Vue',
       'Write & review code of several Java based Microservices',
       'Follow Agile, SCRUM, TDD, CI/CD using Jenkins on OpenShift'
     ]

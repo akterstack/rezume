@@ -35,7 +35,7 @@ export function Experience() {
       {({ experiences }) => (
         <section>
           <div className="section-title">Experience</div>
-          {experiences.map(({ title, duration, company, roles }) => {
+          {experiences.map(({ title, duration, company, roles }, idx) => {
             return (
               <>
                 <ExperienceHeading
@@ -48,6 +48,11 @@ export function Experience() {
                     <li key={item} dangerouslySetInnerHTML={{ __html: item }} />
                   ))}
                 </ul>
+                {idx < experiences.length - 1 && (
+                  <div className="flex justify-center mb-2">
+                    <hr className="w-11/12 justify-center" />
+                  </div>
+                )}
               </>
             );
           })}

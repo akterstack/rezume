@@ -12,7 +12,8 @@ body {
 }
 
 section {
-  @apply .p-2;
+  @apply .px-2;
+  @apply .m-1;
   @apply .w-full;
 }
 
@@ -20,10 +21,6 @@ ul {
   @apply .list-disc;
   @apply .list-outside;
   @apply .ml-5;
-}
-
-i[class*="fa-"] {
-  @apply .mr-1;
 }
 
 h2 {
@@ -40,6 +37,14 @@ a:after, a::after {
   font-weight: 900;
   font-size: 8px;
   @apply .pl-1 .text-gray-600
+}
+
+hr {
+  border: 1px dashed lightgray;
+}
+
+i[class*="fa-"] {
+  @apply .mr-1;
 }
 
 #main > div {
@@ -67,12 +72,11 @@ a.inline-link::after {
 .section-title {
   @apply .text-lg;
   @apply .font-semibold;
-  @apply .mb-2;
-  border-bottom: 1px dashed;
+  @apply .mb-1;
+  border-bottom: 1px solid lightgray;
 }
 
 .experience-heading {
-  /*@apply .mt-5;*/
   @apply .mb-1;
 }
 
