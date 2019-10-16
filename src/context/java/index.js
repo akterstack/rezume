@@ -42,64 +42,43 @@ export const skillSet = [
 
 export const experiences = [
   {
-    duration: ['December 2017', 'Ongoing'],
+    title: 'Software Engineer',
+    duration: ['Dec 2017', 'Ongoing'],
     company: {
-      title: 'Cefalo Bangladesh Ltd, Dhaka',
+      title: 'Cefalo Bangladesh Ltd',
       website: 'http://www.cefalo.com',
     },
     roles: [
-      {
-        title: 'Lead Full-stack Developer',
-        duration: ['Nov 2018', 'Present'],
-        details: [
-          'Design & develop features'
-        ],
-      },
-      {
-        title: 'Java Developer',
-        duration: ['Dec 2017', 'Oct 2018'],
-        details: '',
-      }
+      'Work as a consultant for <a href="https://www.nhst.no/">NHST Media Group, Norway</a>',
+      'Lead and maintain a full-stack project based on Node.js & Vue backed by Java based Microservices',
+      'Write & review code of several Java based Microservices',
+      'Follow Agile, SCRUM, CI/CD using Jenkins on OpenShift'
     ]
   }, {
-    duration: ['September 2014', 'December 2017'],
+    title: 'Software Developer',
+    duration: ['Sept 2014', 'Dec 2017'],
     company: {
-      title: 'Dynamic Solution Innovators Ltd, Dhaka',
+      title: 'Dynamic Solution Innovators Ltd',
       website: 'http://www.dsinnovators.com',
     },
     roles: [
-      {
-        title: 'Team Lead',
-        duration: ['Jul 2016', 'Dec 2017'],
-        details: [
-          'Managed a small development team with 3 full-stack developers and one QA member.',
-          'Collected product features from product owner and break down the tasks and assigned developers',
-          'Managed daily stand up meeting, test progress and deployments',
-        ],
-      },
-      {
-        title: 'Software Developer',
-        duration: ['Sept 2014', 'Jun 2016'],
-        details: [
-          'Developed features using a custom in house Java EE framework',
-          'Built a Java functional library using lambda to encourage declarative programming inside the team'
-        ],
-      }
+      'Worked as a software consultant for <a href="https://www.jenzabar.com/">Jenzabar, USA</a>',
+      'Managed a small development team with 3 full-stack developers and one QA member',
+      'Worked directly to the product owner to collect new features and requirements',
+      'Maintain daily stand up meeting, test progress and production deployments',
+      'Developed a Java functional library using lambda on top of legacy custom Java EE framework'
     ]
   }, {
-    duration: ['September 2014', 'December 2017'],
+    title: 'Junior Software Developer',
+    duration: ['Aug 2013', 'Sept 2014'],
     company: {
-      title: 'Bit Mascot (Pvt.) Ltd, Dhaka',
+      title: 'Bit Mascot (Pvt.) Ltd',
       website: 'https://www.bitmascot.com',
     },
     roles: [
-      {
-        title: 'Junior Software Developer (Full-stack)',
-        duration: ['Aug 2013', 'Sept 2014'],
-        details: [
-          ''
-        ],
-      }
+      'Worked as a full-stack developer in an e-commerce CMS project',
+      'Used Java, Spring, Hibernate and JavaScript',
+      'Attended some tech sessions'
     ]
   },
 ];

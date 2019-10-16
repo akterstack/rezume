@@ -16,6 +16,12 @@ section {
   @apply .w-full;
 }
 
+ul {
+  @apply .list-disc;
+  @apply .list-outside;
+  @apply .ml-5;
+}
+
 sup {
   font-size: 8px;
 }
@@ -39,9 +45,14 @@ i[class*="fa-"] {
 }
 
 .section-title {
-  @apply .text-xl;
+  @apply .text-lg;
   @apply .font-semibold;
   border-bottom: 1px dashed;
+}
+
+.experience-heading {
+  @apply .mt-5;
+  @apply .mb-2;
 }
 
 .skills {
