@@ -6,6 +6,15 @@ I am a full-stack developer working for 6+ years in Java and JavaScript stack.
   exploring cities are in the list of my top favorite hobbies.
 `;
 
+export const workflow = `
+Beginning of a feature implementation or solving a problem, I frame box the 
+problem/feature within some design patterns to keep the implementation clean 
+and scalable. While writing code and I focus on design principles as well to 
+keep it readable and maintainable. As a passionate software developer, I write 
+tests of my code, do daily scrum, review others code, share what I learn newly 
+and thus try to play the role of a team player.
+`
+
 export const skillSet = [
   {
     label: 'Backend',
