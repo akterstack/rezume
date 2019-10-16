@@ -6,7 +6,10 @@ export function Workflow() {
     <StackConsumer>
       {({ workflow }) => (
         <section>
-          <div className="section-title">Workflow</div>
+          <div className="section-title">
+            <i className="fas fa-code-branch" />
+            Workflow
+          </div>
           <p>{workflow}</p>
         </section>
       )}

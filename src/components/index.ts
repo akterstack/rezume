@@ -1,4 +1,5 @@
 export * from './About';
+export * from './Education';
 export * from './Experience';
 export * from './Masthead';
 export * from './SkillSet';

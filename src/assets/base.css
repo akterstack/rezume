@@ -26,6 +26,12 @@ i[class*="fa-"] {
   @apply .mr-1;
 }
 
+h2 {
+  @apply .font-bold;
+  @apply .text-base;
+  @apply .text-gray-800;
+}
+
 a:after, a::after {
   font-family: "FontAwesome";
   content: "\f35d";
@@ -44,6 +50,14 @@ a:after, a::after {
 #avatar {
   @apply .w-1/5;
   @apply .pr-2;
+}
+
+.inline-link {
+  border-bottom: 1px dotted gray;
+}
+
+a.inline-link::after {
+  content: '';
 }
 
 .badge {

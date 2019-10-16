@@ -12,10 +12,10 @@ function ExperienceHeading({
 }) {
   return (
     <div className="experience-heading">
-      <h2 className="font-bold">{title}</h2>
+      <h2>{title}</h2>
       <div className="flex justify-between text-sm text-gray-700">
         <div>
-          <a href={company.website}>
+          <a href={company.website} target="_blank">
             <i className="fas fa-briefcase" />
             {company.title}
           </a>
