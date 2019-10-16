@@ -12,14 +12,14 @@ export const skillSet = [
     skills: [
       'Java 8, Kotlin, Groovy, Node.js',
       'Spring Boot, Webflux, Cloud, ExpressJS, TypeORM',
-      'JUnit 5, Mockito, Jest',
       'PostgreSQL, MySQL, MongoDB, ElasticSearch',
+      'JUnit 5, Mockito, Jest',
     ]
   },
   {
     label: 'Frontend',
     skills: [
-      'TypeScript, ES6',
+      'TypeScript, JavaScript, ES6',
       'React, Redux, Vue, jQuery',
       'Bootstrap, TailwindCSS',
     ]
@@ -34,7 +34,7 @@ export const skillSet = [
     label: 'Misc.',
     skills: [
       'Microservice, REST, GraphQL',
-      'JIRA, SCRUM, Kanban, Agile',
+      'JIRA, Agile, SCRUM, Kanban',
       'Git, Gradle, Maven, Webpack',
     ]
   },
@@ -78,7 +78,7 @@ export const experiences = [
     roles: [
       'Worked as a full-stack developer in an e-commerce CMS project',
       'Used Java, Spring, Hibernate and JavaScript',
-      'Attended some tech sessions'
+      'Regularly attended tech sessions'
     ]
   },
 ];

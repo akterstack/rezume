@@ -53,12 +53,13 @@ a:after, a::after {
 .section-title {
   @apply .text-lg;
   @apply .font-semibold;
+  @apply .mb-2;
   border-bottom: 1px dashed;
 }
 
 .experience-heading {
-  @apply .mt-5;
-  @apply .mb-2;
+  /*@apply .mt-5;*/
+  @apply .mb-1;
 }
 
 .skills {

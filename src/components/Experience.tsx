@@ -15,14 +15,14 @@ function ExperienceHeading({
       <h2 className="font-bold">{title}</h2>
       <div className="flex justify-between text-sm text-gray-700">
         <div>
-          <i className="far fa-calendar-alt" />
-          {duration[0]} - {duration[1]}
-        </div>
-        <div>
           <a href={company.website}>
             <i className="fas fa-briefcase" />
             {company.title}
           </a>
+        </div>
+        <div>
+          <i className="far fa-calendar-alt" />
+          {duration[0]} - {duration[1]}
         </div>
       </div>
     </div>
@@ -43,7 +43,7 @@ export function Experience() {
                   company={company}
                   duration={duration}
                 />
-                <ul>
+                <ul className="mb-2">
                   {roles.map(item => (
                     <li key={item} dangerouslySetInnerHTML={{ __html: item }} />
                   ))}
