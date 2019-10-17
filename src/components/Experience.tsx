@@ -37,7 +37,7 @@ export function Experience() {
           <div className="section-title">Experience</div>
           {experiences.map(({ title, duration, company, roles }, idx) => {
             return (
-              <>
+              <div className="pl-3">
                 <ExperienceHeading
                   title={title}
                   company={company}
@@ -49,11 +49,11 @@ export function Experience() {
                   ))}
                 </ul>
                 {idx < experiences.length - 1 && (
-                  <div className="flex justify-center mb-2">
-                    <hr className="w-11/12 justify-center" />
+                  <div className="flex justify-center my-4">
+                    <hr className="w-full justify-center" />
                   </div>
                 )}
-              </>
+              </div>
             );
           })}
         </section>
