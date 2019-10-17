@@ -61,7 +61,7 @@ export const projects = [
     description: `A full-stack e-commerce CMS. Supports third party plugin system.
     Besides contributing in core CMS development I wrote few plugins which are 
     related to product recommendation, minimum shipping box size calculator,
-    user interests etc. <b>Java, Groovy, Spring, Hibernate, Grails</b> are mostly
+    user interests etc. <b>Java, JavaScript, Spring, Hibernate, Grails</b> are mostly
     used tech stack.`,
   },
 ];
