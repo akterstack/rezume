@@ -40,7 +40,8 @@ a:after, a::after {
 }
 
 hr {
-  border: 1px dashed lightgray;
+  border-top: 0;
+  border-bottom: 1px dashed gray;
 }
 
 i[class*="fa-"] {
