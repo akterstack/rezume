@@ -19,14 +19,16 @@ export function Education() {
           {educations.map(({ title, duration, school }: IEducation) => (
             <>
               <h2>{title}</h2>
-              <div>
-                <a href={school.website} target="_blank">
-                  {school.title}
-                </a>
-              </div>
-              <div>
-                <i className="far fa-calendar-alt" />
-                {`${duration[0]} - ${duration[1]}`}
+              <div className="flex justify-between" style={{ fontSize: 13 }}>
+                <div>
+                  <i className="far fa-calendar-alt" />
+                  {`${duration[0]} - ${duration[1]}`}
+                </div>
+                <div>
+                  <a href={school.website} target="_blank">
+                    {school.title}
+                  </a>
+                </div>
               </div>
             </>
           ))}
