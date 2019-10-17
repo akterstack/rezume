@@ -37,7 +37,7 @@ export function Experience() {
           <div className="section-title">Experience</div>
           {experiences.map(({ title, duration, company, roles }, idx) => {
             return (
-              <div className="pl-3">
+              <div className="pl-3" key={title}>
                 <ExperienceHeading
                   title={title}
                   company={company}

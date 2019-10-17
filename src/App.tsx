@@ -5,7 +5,7 @@ import {
   Education,
   Experience,
   Masthead,
-  Project,
+  Projects,
   SkillSet,
   Workflow,
 } from '@/components';
@@ -27,7 +27,7 @@ function App() {
         </div>
         <div id="sidebar" className="flex flex-wrap w-1/3">
           <SkillSet />
-          <Project />
+          <Projects />
         </div>
       </div>
     </StackProvider>

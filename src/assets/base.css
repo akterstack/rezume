@@ -35,7 +35,7 @@ a:after, a::after {
   display: inline-block;
   vertical-align: super;
   font-weight: 900;
-  font-size: 8px;
+  font-size: 6px;
   @apply .pl-1 .text-gray-600
 }
 
@@ -46,6 +46,10 @@ hr {
 
 i[class*="fa-"] {
   @apply .mr-1;
+}
+
+b {
+  @apply .text-gray-700;
 }
 
 #main > div {

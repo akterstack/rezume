@@ -22,36 +22,53 @@ export const skillSet = [
       'Java 8, Kotlin, Groovy, Node.js',
       'Spring Boot, Webflux, Cloud, ExpressJS, TypeORM',
       'PostgreSQL, MySQL, MongoDB, ElasticSearch',
-      'JUnit 5, Mockito, Jest',
+      'JUnit 5, Mockito',
     ]
   },
   {
     label: 'Frontend',
     skills: [
       'TypeScript, JavaScript, ES6',
-      'React, Redux, Vue, jQuery',
-      'Bootstrap, TailwindCSS',
+      'React, Redux, Vue, Webpack',
     ]
   },
   {
     label: 'DevOps',
     skills: [
-      'Docker, Kubernetes, Jenkins, CI/CD',
+      'Docker, Kubernetes, CI/CD',
     ]
   },
   {
     label: 'Misc.',
     skills: [
       'Microservice, REST, GraphQL',
-      'JIRA, Agile, SCRUM, Kanban',
-      'Git, Gradle, Maven, Webpack',
+      'Agile, SCRUM, Kanban, JIRA',
     ]
+  },
+];
+
+export const projects = [
+  {
+    title: 'Content Publication System',
+    description: `A SaaS model (multi-tenant) web publication system. Serving custom
+    data structure, themes and plugable custom features from same instance was 
+    the most challenging part. The backend system architecture includes multiple 
+    <b>microservices</b> using <b>Java 8, Spring, RabbitMQ, ElasticSearch, S3, Docker,
+    Kubernetes</b> etc. The frontends are built on top of <b>Node.js, React & Vue</b>.`
+  },
+  {
+    title: 'E-commerce CMS',
+    description: `A full-stack e-commerce CMS. Supports third party plugin system.
+    Besides contributing in core CMS development I wrote few plugins which are 
+    related to product recommendation, minimum shipping box size calculator,
+    user interests etc. <b>Java, Groovy, Spring, Hibernate, Grails</b> are mostly
+    used tech stack.`,
   },
 ];
 
 export const educations = [
   {
-    title: 'BSc in Information and Communication Technology',
+    title: 'BSc (Engg) in Information and Communication Technology',
     duration: ['2008', '2012'],
     school: {
       title: 'Mawlana Bhashani Science and Technology University, Bangladesh',
@@ -83,7 +100,7 @@ export const experiences = [
     },
     roles: [
       `Worked as a software consultant for <a class="inline-link" target="_blank" href="https://www.jenzabar.com/">Jenzabar, USA</a>`,
-      'Managed a small development team with 3 full-stack developers and one QA member',
+      'Managed a small full-stack development team with 5 developers and QA',
       'Worked directly to the product owner to collect new features and requirements',
       'Maintain daily stand up meeting, test progress and production deployments',
       'Developed a Java functional library using lambda on top of legacy custom Java EE framework'
