@@ -4,7 +4,7 @@ import { StackConsumer } from '@/context';
 export function Projects() {
   return (
     <StackConsumer>
-      {({ projects }) => (
+      {({ projects, masthead }) => (
         <section>
           <div className="section-title">Projects</div>
           {projects.map(({ title, description }) => (
@@ -16,6 +16,14 @@ export function Projects() {
               />
             </div>
           ))}
+          <div className="text-center text-xs italic">
+            Please visit my{' '}
+            <a href={masthead.linkedin} target="_blank">
+              <i className="fab fa-linkedin" />
+              linkedin profile
+            </a>{' '}
+            to see all projects I have worked on.
+          </div>
         </section>
       )}
     </StackConsumer>
