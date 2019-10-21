@@ -54,7 +54,7 @@ b {
 
 #main > div {
   @apply .p-5;
-  background-color: antiquewhite;
+  background-color: floralwhite;
 }
 
 #avatar {
