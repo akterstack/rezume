@@ -17,7 +17,7 @@ import './assets/print.css';
 function App() {
   return (
     <StackProvider value={getStack(location.pathname.replace('/', ''))}>
-      <div className="flex flex-wrap items-start w-full mx-auto">
+      <div className="flex flex-wrap items-start w-full mx-auto my-auto">
         <Masthead />
         <div id="content" className="flex flex-wrap w-2/3">
           <About />

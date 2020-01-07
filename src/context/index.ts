@@ -9,7 +9,12 @@ export const StackContext = React.createContext(fullStack);
 export const StackProvider = StackContext.Provider;
 export const StackConsumer = StackContext.Consumer;
 
-const java = deepmerge(fullStack, java_);
+const arrayMerge = (target: any[], source: any[]) => {
+  // skip `masthead.roles` override/merge
+  return source;
+};
+
+const java = deepmerge(fullStack, java_, { arrayMerge });
 const javascript = deepmerge(fullStack, javascript_);
 const stack = { fullStack, java, javascript };
 export const getStack = (name: string = '') => {

@@ -4,55 +4,52 @@ import { StackConsumer } from '@/context';
 export function Masthead() {
   return (
     <StackConsumer>
-      {({ masthead }) => (
-        <div className="flex w-10/12 mt-0 mx-auto my-5">
-          <div id="avatar" className="flex justify-end items-center pr-3">
+      {({
+        masthead: { fullName, roles, phone, email, address, github, linkedin },
+      }) => (
+        <div className="flex w-full justify-center mt-0 mx-auto my-5">
+          <div id="avatar" className="flex justify-end items-center pr-5">
             <img
-              className="w-24 h-24 rounded-full justify-right"
+              className="rounded-full justify-right"
               src="/resources/akter.hossain.png"
-              alt={masthead.fullName}
+              alt={fullName}
             />
           </div>
-          <div>
-            <div className="uppercase text-5xl leading-none">
-              {masthead.fullName}
-            </div>
-            <div
-              className="text-xl"
-              dangerouslySetInnerHTML={{
-                __html: `${masthead.role}, ${masthead.experienceNote}`,
-              }}
-            />
+          <div className="">
+            <div className="uppercase text-5xl leading-none">{fullName}</div>
+            {roles.map((role: string) => (
+              <div
+                key={role}
+                className="text-xl"
+                dangerouslySetInnerHTML={{
+                  __html: `${role}`,
+                }}
+              />
+            ))}
             <div className="flex flex-wrap">
               <div className="badge">
                 <i className="fas fa-phone-square" />
-                {masthead.phone}
+                {phone}
               </div>
               <div className="badge">
                 <i className="fas fa-envelope" />
-                {masthead.email}
+                {email}
               </div>
               <div className="badge">
                 <i className="fas fa-map-marker-alt" />
-                {masthead.address}
+                {address}
               </div>
             </div>
             <div className="flex flex-wrap">
               <div className="badge">
                 <i className="fab fa-github-square" />
-                <a
-                  href={masthead.github}
-                  target="_blank"
-                  rel="noopener noreferrer">
+                <a href={github} target="_blank" rel="noopener noreferrer">
                   akterstack
                 </a>
               </div>
               <div className="badge">
                 <i className="fab fa-linkedin" />
-                <a
-                  href={masthead.github}
-                  target="_blank"
-                  rel="noopener noreferrer">
+                <a href={linkedin} target="_blank" rel="noopener noreferrer">
                   /akterstack
                 </a>
               </div>
