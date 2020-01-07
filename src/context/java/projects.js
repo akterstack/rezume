@@ -13,6 +13,7 @@ export const projects = [
     user feed according to their interest and buying history, caching
     product details page, real time customer review & third party plugin like
     related product, recommended product, minimum shipping box size calculator etc.
+    The tech stack contains Java, Spring, Hibernate & MySQL
     `
   },
 ];
