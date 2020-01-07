@@ -9,7 +9,7 @@ export const experiences = [
     roles: [
       `Work as a consultant of a distributed team based on Oslo, Norway`,
       `Write readable, testable and maintainable code`,
-      `Review pull request, see readability, maintainability, scalability & complexity`,
+      `Review pull request, see readability, maintainability, scalability etc`,
       `Collaborate with team members from design to deployments`,
       'Follow Agile, SCRUM, TDD, CI/CD (Jenkins on OpenShift)'
     ]
@@ -23,9 +23,9 @@ export const experiences = [
     roles: [
       `Worked as a software consultant for <a class="inline-link" target="_blank" href="https://www.jenzabar.com/">Jenzabar, USA</a>`,
       'Worked directly with product owner to collect new feature & requirements',
-      'Maintained daily stand up meeting, test progress and production deployments',
+      'Maintained daily stand up meeting, test, deployments',
       `Contributed client's custom Java EE framework`,
-      `Developed a Java functional library on top of the custom Java EE framework`,
+      `Developed a Java functional library on top of the custom framework`,
       ]
   }, {
     title: 'Software Developer',
