@@ -35,27 +35,25 @@ export function Experience() {
       {({ experiences }) => (
         <section>
           <div className="section-title">Experience</div>
-          {experiences.map(({ title, duration, company, roles }, idx) => {
-            return (
-              <div className="pl-3" key={title}>
-                <ExperienceHeading
-                  title={title}
-                  company={company}
-                  duration={duration}
-                />
-                <ul className="mb-2">
-                  {roles.map(item => (
-                    <li key={item} dangerouslySetInnerHTML={{ __html: item }} />
-                  ))}
-                </ul>
-                {idx < experiences.length - 1 && (
-                  <div className="flex justify-center my-4">
-                    <hr className="w-full justify-center" />
-                  </div>
-                )}
-              </div>
-            );
-          })}
+          {experiences.map(({ title, duration, company, roles }, idx) => (
+            <div className="pl-3" key={company.title}>
+              <ExperienceHeading
+                title={title}
+                company={company}
+                duration={duration}
+              />
+              <ul className="mb-2">
+                {roles.map(item => (
+                  <li key={item} dangerouslySetInnerHTML={{ __html: item }} />
+                ))}
+              </ul>
+              {idx < experiences.length - 1 && (
+                <div className="flex justify-center my-4">
+                  <hr className="w-full justify-center" />
+                </div>
+              )}
+            </div>
+          ))}
         </section>
       )}
     </StackConsumer>

@@ -17,7 +17,7 @@ export function Education() {
             Education
           </div>
           {educations.map(({ title, duration, school }: IEducation) => (
-            <>
+            <div key={title}>
               <h2>{title}</h2>
               <div className="flex justify-between" style={{ fontSize: 13 }}>
                 <div>
@@ -30,7 +30,7 @@ export function Education() {
                   </a>
                 </div>
               </div>
-            </>
+            </div>
           ))}
         </section>
       )}
