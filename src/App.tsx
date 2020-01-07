@@ -9,14 +9,14 @@ import {
   SkillSet,
   Workflow,
 } from '@/components';
-import { stack, StackProvider } from '@/context';
+import { getStack, StackProvider } from '@/context';
 
 import './assets/base.css';
 import './assets/print.css';
 
 function App() {
   return (
-    <StackProvider value={stack.java}>
+    <StackProvider value={getStack(location.pathname.replace('/', ''))}>
       <div className="flex flex-wrap items-start w-full mx-auto">
         <Masthead />
         <div id="content" className="flex flex-wrap w-2/3">
