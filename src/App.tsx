@@ -21,8 +21,8 @@ function App() {
         <Masthead />
         <div id="content" className="flex flex-wrap w-2/3">
           <About />
-          <Experience />
           <Workflow />
+          <Experience />
           <Education />
         </div>
         <div id="sidebar" className="flex flex-wrap w-1/3">
