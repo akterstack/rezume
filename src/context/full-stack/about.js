@@ -1,5 +1,6 @@
 export const about = `
 Full-stack developer working for 6+ years in Java and JavaScript stack.
- Open stack enthusiast. In leisure periods, read tech blog, learn trending
-  tech & tools. Exploring cities and countryside are in the top of the list of hobbies.
+ Write readable, testable & maintainable code.
+ Open stack enthusiast. Follow trending tech & tools, read tech blogs.
+ Explore cities and countrysides very often and in vacation.
 `;

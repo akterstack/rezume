@@ -7,10 +7,11 @@ export const experiences = [
       website: 'http://www.cefalo.com',
     },
     roles: [
-      `Designed overall architecture of the web application based on Node.js and Vue`,
-      `Collaborate with the rest of the development team to design and launch new features`,
-      'Write & review code of several Java based microservices',
-      'Follow Agile, SCRUM, TDD, CI/CD (Jenkins on OpenShift)'
+      `Work as a consultant of a distributed team based on Oslo, Norway`,
+      `Write readable, testable and maintainable code`,
+      `Review pull request, see readability, maintainability, scalability etc`,
+      `Collaborate with team members from design to deployments`,
+      'Follow Agile, SCRUM, TDD, CI/CD (Jenkins on OpenShift)',
     ]
   }, {
     title: 'Software Engineer',
@@ -21,10 +22,10 @@ export const experiences = [
     },
     roles: [
       `Worked as a software consultant for <a class="inline-link" target="_blank" href="https://www.jenzabar.com/">Jenzabar, USA</a>`,
-      'Managed a full-stack development team consisting 5 developers and QA',
-      'Worked directly to the product owner to collect new feature requirements',
-      'Maintained daily stand up meeting, test progress and production deployments',
-      'Developed a Java functional library using lambda on top of legacy custom Java EE framework'
+      'Worked directly with product owner to collect new feature & requirements',
+      'Maintained daily stand up meeting, test, deployments',
+      `Contributed client's custom Java EE framework`,
+      `Developed a Java functional library on top of the custom framework`,
     ]
   }, {
     title: 'Software Developer',

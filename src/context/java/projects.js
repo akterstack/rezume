@@ -1,6 +1,6 @@
 export const projects = [
   {
-    title: 'News Publication System',
+    title: 'News Content Management & Publication System',
     description: `A multi-tenant SaaS eco-system. It contains 10+ 
     <b>microservices</b> and most of them are based on 
     <b>Java 8, Spring, RabbitMQ, ElasticSearch, S3, Docker,

@@ -5,7 +5,7 @@ export const skillSet = [
       'Java 8, Kotlin, Groovy, Node.js',
       'Spring Boot, Webflux, Hibernate, ExpressJS, TypeORM',
       'PostgreSQL, MySQL, MongoDB, ElasticSearch',
-      'JUnit 5, Mockito',
+      'JUnit, Mockito',
     ]
   },
   {
@@ -13,6 +13,7 @@ export const skillSet = [
     skills: [
       'TypeScript, JavaScript, ES6',
       'React, Redux, Vue, Webpack',
+      'Jest, Chai'
     ]
   },
   {

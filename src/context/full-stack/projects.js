@@ -1,11 +1,12 @@
 export const projects = [
   {
-    title: 'News Publication System',
-    description: `A SaaS (multi-tenant) web publication system. The most challengin
-    part is to serve custom data structures, themes and features from same instance 
-    of the server. The backend system architecture includes multiple 
-    <b>microservices</b> using <b>Java 8, Spring, RabbitMQ, ElasticSearch, S3, Docker,
-    Kubernetes</b> etc. The frontends are built on top of <b>Node.js, React & Vue</b>.`
+    title: 'News Content Management & Publication System',
+    description: `A multi-tenant SaaS eco-system. It contains 10+ 
+    <b>microservices</b> and most of them are based on 
+    <b>Java 8, Spring, RabbitMQ, ElasticSearch, S3, Docker,
+    Kubernetes</b> etc. And the frontend part is based on <b>Vue, Webpack & Node</b>.
+    The main challenging part is to support
+    multiple clients(so far 12) from the single instance of service (SaaS).`
   },
   {
     title: 'E-commerce CMS',
