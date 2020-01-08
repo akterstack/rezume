@@ -10,10 +10,9 @@ export const projects = [
   },
   {
     title: 'E-commerce CMS',
-    description: `A full-stack e-commerce CMS. The mentionable features are curated
-    user feed according to their interest and buying history, caching
-    product details page, real time customer review & third party plugin like
-    related product, recommended product, minimum shipping box size calculator etc.
+    description: `A full-stack e-commerce CMS. The most challenging parts were curated
+    user feed, caching product details page, real time customer review,
+    related product, recommended product, shipping box size calculator etc.
     `
   },
 ];
