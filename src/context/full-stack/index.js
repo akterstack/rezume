@@ -1,5 +1,5 @@
 export * from './about';
-export * from './education';
+export * from './educations';
 export * from './experiences';
 export * from './masthead';
 export * from './projects';

@@ -3,4 +3,5 @@ export const masthead = {
     'Java, Kotlin, Spring, Hibernate',
     'Docker, Kubernetes, Microservice, CI/CD, Agile',
   ],
+  linkedin: '',
 };

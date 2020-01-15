@@ -1,5 +1,5 @@
 export const about = `
-Full-stack developer working for 6+ years in Java and JavaScript stack.
+Full-stack developer on TypeScript, ES6, Node, React, Vue.
  Write readable, testable & maintainable code.
  Open stack enthusiast. Follow trending tech & tools.
  Explore cities and countrysides very often and in vacation.
