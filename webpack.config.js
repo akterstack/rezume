@@ -20,5 +20,5 @@ const productionConfiguration = function() {
 module.exports = merge.smart(
   baseConfig,
   optimizedConfig,
-  productionConfiguration(),
+  productionConfiguration()
 );

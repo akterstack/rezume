@@ -29,14 +29,15 @@ h2 {
   @apply .text-gray-800;
 }
 
-a:after, a::after {
-  font-family: "FontAwesome";
-  content: "\f35d";
+a:after,
+a::after {
+  font-family: 'FontAwesome';
+  content: '\f35d';
   display: inline-block;
   vertical-align: super;
   font-weight: 900;
   font-size: 6px;
-  @apply .pl-1 .text-gray-600
+  @apply .pl-1 .text-gray-600;
 }
 
 hr {
@@ -44,7 +45,7 @@ hr {
   border-bottom: 1px dashed gray;
 }
 
-i[class*="fa-"] {
+i[class*='fa-'] {
   @apply .mr-1;
 }
 
@@ -54,7 +55,7 @@ b {
 
 #main > div {
   @apply .p-5;
-  background-color: floralwhite;
+  background-color: #fff9ed;
 }
 
 #avatar {

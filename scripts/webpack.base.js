@@ -4,19 +4,19 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const devMode = process.env.NODE_ENV === 'development';
 
 module.exports = {
-  mode: "development",
-  devtool: "source-map",
+  mode: 'development',
+  devtool: 'source-map',
   entry: {
-    app: path.resolve(__dirname, '../src/App')
+    app: path.resolve(__dirname, '../src/App'),
   },
   resolve: {
     extensions: ['.tsx', '.ts', '.js'],
     alias: {
       '@': path.resolve(__dirname, '..', 'src'),
-    }
+    },
   },
   output: {
-    path: path.join(__dirname, 'resources'),
+    path: path.join(__dirname, '../dist'),
     publicPath: '/',
   },
   module: {
@@ -26,14 +26,14 @@ module.exports = {
         exclude: /node_modules/,
         use: [
           {
-            loader: "ts-loader"
-          }
-        ]
+            loader: 'ts-loader',
+          },
+        ],
       },
       {
-        enforce: "pre",
+        enforce: 'pre',
         test: /\.js$/,
-        loader: "source-map-loader"
+        loader: 'source-map-loader',
       },
       {
         test: /\.css$/,
@@ -45,13 +45,13 @@ module.exports = {
             },
           },
           'css-loader',
-          'postcss-loader'
+          'postcss-loader',
         ],
       },
       {
         test: /\.(png|woff|woff2|eot|ttf|svg)$/,
-        loader: 'url-loader?limit=100000'
-      }
+        loader: 'url-loader?limit=100000',
+      },
     ],
   },
   plugins: [

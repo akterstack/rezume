@@ -33,6 +33,7 @@
     "source-map-loader": "^0.2.4",
     "style-loader": "^0.23.1",
     "tailwindcss": "^1.0.4",
+    "terser-webpack-plugin": "^2.3.2",
     "ts-loader": "^6.0.4",
     "tslint": "^5.18.0",
     "tslint-config-prettier": "^1.18.0",
