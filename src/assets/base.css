@@ -55,7 +55,7 @@ b {
 
 #main > div {
   @apply .p-5;
-  background-color: #fff9ed;
+  background-color: #fffaf0;
 }
 
 #avatar {
@@ -84,10 +84,4 @@ a.inline-link::after {
 
 .experience-heading {
   @apply .mb-1;
-}
-
-.skills {
-  @apply .list-disc;
-  @apply .list-outside;
-  @apply .ml-5;
 }
