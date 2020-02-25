@@ -6,16 +6,29 @@ export function Projects() {
     <StackConsumer>
       {({ projects, masthead }) => (
         <section>
-          <div className="section-title">Projects</div>
-          {projects.map(({ title, description }) => (
-            <div key={title} className="mb-2">
-              <h3 className="inline font-bold">{title} - </h3>
-              <p
-                className="inline"
-                dangerouslySetInnerHTML={{ __html: description }}
-              />
-            </div>
-          ))}
+          <div className="projects text-3xl text-center mt-16">Projects</div>
+          <div className="flex flex-wrap">
+            {projects.map(({ type, duration, img, title, description }) => (
+              <div key={title} className="w-1/2">
+                <div className="p-4 flex flex-col justify-between leading-normal">
+                  <div className="my-4">
+                    <img className="" src={img} />
+                    <div className="text-gray-900 font-bold text-xl mt-2">
+                      {title}
+                    </div>
+                    <p className="text-sm text-gray-600 flex items-center mb-2">
+                      <i className="far fa-calendar-alt" /> {duration[0]} -
+                      {duration[1]}
+                    </p>
+                    <p
+                      className="text-gray-700 inline"
+                      dangerouslySetInnerHTML={{ __html: description }}
+                    />
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
           <div className="text-center text-xs italic">
             Please visit my{' '}
             <a href={masthead.linkedin} target="_blank">

@@ -13,26 +13,34 @@ export function SkillSet() {
   };
 
   return (
-    <StackConsumer>
-      {({ skillSet }) =>
-        skillSet.map(
-          ({ label, skillVsExp }: { label: string; skillVsExp: any }) => (
-            <section key={label}>
-              <div className="section-title">{label}</div>
-              <div className="skills">
-                {Object.entries(skillVsExp).map(([skill, exp]) => (
-                  <div key={skill} className="flex">
-                    <div className="w-1/4">{skill}</div>
-                    <div className="w-3/4 flex justify-end items-center">
-                      <Bar exp={exp as string} />
+    <>
+      <StackConsumer>
+        {({ skillSet }) =>
+          skillSet.map(
+            ({ label, skillVsExp }: { label: string; skillVsExp: any }) => (
+              <section key={label}>
+                <div className="section-title">{label}</div>
+                <div className="skills">
+                  {Object.entries(skillVsExp).map(([skill, exp]) => (
+                    <div key={skill} className="flex">
+                      <div className="w-1/4">{skill}</div>
+                      <div className="w-3/4 flex justify-end items-center">
+                        <Bar exp={exp as string} />
+                      </div>
                     </div>
-                  </div>
-                ))}
-              </div>
-            </section>
+                  ))}
+                </div>
+              </section>
+            )
           )
-        )
-      }
-    </StackConsumer>
+        }
+      </StackConsumer>
+      <section>
+        <div className="text-center text-xs italic mt-4">
+          * All progress bars are indicating years of experience in the relative
+          field
+        </div>
+      </section>
+    </>
   );
 }

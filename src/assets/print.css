@@ -4,8 +4,13 @@
 }
 
 @media print {
-  html, body {
+  html,
+  body {
     width: 21cm;
     height: 29.7cm;
+  }
+
+  .projects {
+    padding-top: 100px;
   }
 }

@@ -27,8 +27,10 @@ function App() {
         </div>
         <div id="sidebar" className="flex flex-wrap w-1/3">
           <SkillSet />
-          <Projects />
         </div>
+      </div>
+      <div className="flex flex-wrap w-full">
+        <Projects />
       </div>
     </StackProvider>
   );
