@@ -40,22 +40,6 @@ export function Masthead() {
                 {address}
               </div>
             </div>
-            <div className="flex flex-wrap">
-              <div className="badge">
-                <i className="fab fa-github-square" />
-                <a href={github} target="_blank" rel="noopener noreferrer">
-                  akterstack
-                </a>
-              </div>
-              {linkedin && (
-                <div className="badge">
-                  <i className="fab fa-linkedin" />
-                  <a href={linkedin} target="_blank" rel="noopener noreferrer">
-                    /akterstack
-                  </a>
-                </div>
-              )}
-            </div>
           </div>
         </div>
       )}
