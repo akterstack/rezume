@@ -18,8 +18,5 @@ const java = deepmerge(fullStack, java_, { arrayMerge });
 const javascript = deepmerge(fullStack, javascript_, { arrayMerge });
 const stack = { fullStack, java, javascript };
 export const getStack = (name: string = '') => {
-  console.log(name);
-  console.log(stack[name]);
-
   return stack[name] || stack.fullStack;
 };
