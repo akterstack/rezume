@@ -1,4 +1,5 @@
 export * from './about';
+export * from './domainKnowledge';
 export * from './educations';
 export * from './experiences';
 export * from './masthead';

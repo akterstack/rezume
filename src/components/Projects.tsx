@@ -6,7 +6,7 @@ export function Projects() {
     <StackConsumer>
       {({ projects, masthead }) => (
         <section>
-          <div className="projects text-3xl text-center mt-14">Projects</div>
+          <div className="projects text-3xl text-center mt-10">Projects</div>
           <div className="flex flex-wrap">
             {projects.map(
               ({ title, role, duration, img, description, tech }) => (

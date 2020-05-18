@@ -1,8 +1,8 @@
 export const masthead = {
   fullName: 'Akter Hossain',
   roles: [
-    '&hearts; TypeScript, NodeJS,  React, Vue',
-    'Docker, Kubernetes, Agile, Ecommerce',
+    '6yrs+ in &hearts; with TypeScript, NodeJS,  React, Vue',
+    'Docker, Kubernetes, Agile, Ecommerce, CMS',
   ],
   email: 'akterstack@gmail.com',
   phone: '+8801736774272',

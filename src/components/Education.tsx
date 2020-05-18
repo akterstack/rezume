@@ -11,7 +11,7 @@ export function Education() {
   return (
     <StackConsumer>
       {({ educations }) => (
-        <section>
+        <section className="mt-5">
           <div className="section-title">
             <i className="fas fa-graduation-cap" />
             Education
@@ -19,7 +19,7 @@ export function Education() {
           {educations.map(({ title, duration, school }: IEducation) => (
             <div key={title}>
               <h2>{title}</h2>
-              <div className="flex justify-between" style={{ fontSize: 13 }}>
+              <div style={{ fontSize: 13 }}>
                 <div>
                   <i className="far fa-calendar-alt" />
                   {`${duration[0]} - ${duration[1]}`}

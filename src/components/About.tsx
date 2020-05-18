@@ -7,7 +7,7 @@ export function About() {
       {({ about }) => (
         <section>
           <div className="section-title">About</div>
-          <p>{about}</p>
+          <p dangerouslySetInnerHTML={{ __html: about }} />
         </section>
       )}
     </StackConsumer>

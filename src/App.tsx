@@ -2,16 +2,15 @@ import React from 'react';
 import { render } from 'react-dom';
 import {
   About,
+  DomainKnowledge,
   Education,
   Experience,
   Masthead,
   Projects,
   SkillSet,
-  Workflow,
 } from '@/components';
 import { getStack, StackProvider } from '@/context';
 
-import './assets/balloon.css';
 import './assets/base.css';
 import './assets/print.css';
 
@@ -22,12 +21,12 @@ function App() {
         <Masthead />
         <div id="content" className="flex flex-wrap w-2/3">
           <About />
-          <Workflow />
+          <DomainKnowledge />
           <Experience />
-          <Education />
         </div>
         <div id="sidebar" className="flex flex-wrap w-1/3">
           <SkillSet />
+          <Education />
         </div>
       </div>
       <div className="flex flex-wrap w-full">
