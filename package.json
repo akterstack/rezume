@@ -1,7 +1,7 @@
 {
-  "name": "garial-dashboard",
+  "name": "rezume",
   "version": "1.0.0",
-  "description": "Garial progressive web application",
+  "description": "Rezume progressive web application",
   "main": "src/index.js",
   "scripts": {
     "dev": "NODE_ENV=development webpack-dev-server --mode development --progress --hide-modules --hot --history-api-fallback --config ./scripts/webpack.base.js",

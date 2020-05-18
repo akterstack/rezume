@@ -11,6 +11,7 @@ import {
 } from '@/components';
 import { getStack, StackProvider } from '@/context';
 
+import './assets/balloon.css';
 import './assets/base.css';
 import './assets/print.css';
 

@@ -1,7 +1,7 @@
 export const skillSet = [
   {
     label: 'Programming',
-    skillVsExp: {
+    expBySkill: {
       Java: 6,
       Kotlin: 2,
       Groovy: 1,
@@ -11,7 +11,7 @@ export const skillSet = [
   },
   {
     label: 'Backend',
-    skillVsExp: {
+    expBySkill: {
       Spring: 6,
       Hibernate: 3,
       'Node/Express': 3,
@@ -22,7 +22,7 @@ export const skillSet = [
   },
   {
     label: 'Frontend',
-    skillVsExp: {
+    expBySkill: {
       'React/Redux': 2,
       Vue: 3,
       Webpack: 3,
@@ -31,7 +31,7 @@ export const skillSet = [
   },
   {
     label: 'DevOps',
-    skillVsExp: {
+    expBySkill: {
       Docker: 3,
       Kubernetes: 1,
       'CI/CD': 2,
@@ -39,7 +39,7 @@ export const skillSet = [
   },
   {
     label: 'Misc.',
-    skillVsExp: {
+    expBySkill: {
       Microservice: 4,
       REST: 5,
       GraphQL: 1,
