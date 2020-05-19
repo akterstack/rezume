@@ -21,12 +21,13 @@ export function Projects() {
                     <p className="text-sm text-gray-600 flex items-center mt-2">
                       <i className="fas fa-briefcase" /> {role}
                     </p>
-                    <p className="text-sm text-gray-800 flex flex-wrap items-center">
+                    <p className="text-sm text-gray-600 flex flex-wrap items-center">
                       <i className="fas fa-charging-station" />
-                      {tech.map((t: string) => (
-                        <span key={t} className="mr-2 font-bold">
-                          {t}
-                        </span>
+                      {tech.map((t: string, idx: number) => (
+                        <>
+                          <span key={t}>{t}</span>
+                          {tech.length > idx + 1 && <span>, &nbsp;</span>}
+                        </>
                       ))}
                     </p>
                     <p

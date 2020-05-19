@@ -7,7 +7,6 @@ export const projects = [
       'Kotlin',
       'Spring',
       'MongoDB',
-      'PostgreSQL',
       'Elasticsearch',
       'Node',
       'React',
