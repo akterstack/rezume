@@ -1,3 +1,8 @@
+export const experienceNote = `
+I have almost 7 years of experience in both backend(70%) and frontend(30%) development. Most of the time I have worked with Spring, Hibernate, MySQL and PostgreSQL as backend technologies. Apart from that in last 3 years I have got chance to work with Node.js and MongoDB.
+And as a frontend framework I am expert in React and Vue mostly.
+Since we are using Microservice architecture in our current project I know how it and its components works. I have some basic level of experience in DevOps tools too like Docker, Kubernetes, Jenkins etc.
+`;
 export const experiences = [
   {
     title: 'Software Engineer',

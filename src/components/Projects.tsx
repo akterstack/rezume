@@ -12,9 +12,9 @@ export function Projects() {
               <div key={title} className="w-1/2">
                 <div className="px-4 py-2 flex flex-col justify-between leading-normal">
                   <div className="mt-3">
-                    <div className="h-40">
+                    {/* <div className="h-40">
                       <img className="max-h-full" src={img} />
-                    </div>
+                    </div> */}
                     <div className="text-gray-900 font-bold text-xl mt-2 leading-none">
                       {title}
                     </div>

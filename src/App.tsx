@@ -2,7 +2,6 @@ import React from 'react';
 import { render } from 'react-dom';
 import {
   About,
-  DomainKnowledge,
   Education,
   Experience,
   Masthead,
@@ -21,7 +20,6 @@ function App() {
         <Masthead />
         <div id="content" className="flex flex-wrap w-2/3">
           <About />
-          <DomainKnowledge />
           <Experience />
         </div>
         <div id="sidebar" className="flex flex-wrap w-1/3">
@@ -29,7 +27,7 @@ function App() {
           <Education />
         </div>
       </div>
-      <div className="flex flex-wrap w-full">
+      <div className="flex flex-wrap w-full" style={{ minHeight: 1175 }}>
         <Projects />
       </div>
     </StackProvider>

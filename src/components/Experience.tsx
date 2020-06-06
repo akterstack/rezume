@@ -32,9 +32,10 @@ function ExperienceHeading({
 export function Experience() {
   return (
     <StackConsumer>
-      {({ experiences }) => (
+      {({ experienceNote, experiences }) => (
         <section>
           <div className="section-title">Experience</div>
+          <p dangerouslySetInnerHTML={{ __html: experienceNote }} />
           {experiences.map(({ title, duration, company, roles }, idx) => (
             <div className="pl-3" key={company.title}>
               <ExperienceHeading
